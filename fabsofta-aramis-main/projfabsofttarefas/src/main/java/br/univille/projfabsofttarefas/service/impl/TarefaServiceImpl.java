@@ -1,16 +1,17 @@
-package br.univille.service;
-
-import br.univille.entity.Tarefa;
-import br.univille.repository.TarefaRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+package br.univille.projfabsofttarefas.service.impl;
 
 import java.util.List;
 import java.util.Optional;
 
-@Service
-public class TarefaService {
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import br.univille.projfabsofttarefas.entity.Tarefa;
+import br.univille.projfabsofttarefas.repository.TarefaRepository;
+import br.univille.projfabsofttarefas.service.TarefaService;
+
+@Service
+public class TarefaServiceImpl implements TarefaService {
     @Autowired
     private TarefaRepository tarefaRepository;
 

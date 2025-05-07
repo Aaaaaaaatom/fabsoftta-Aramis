@@ -1,7 +1,8 @@
-package br.univille.controller;
+package br.univille.projfabsofttarefas.controller;
 
-import br.univille.entity.Tarefa;
-import br.univille.service.TarefaService;
+import br.univille.projfabsofttarefas.entity.Tarefa;
+import br.univille.projfabsofttarefas.service.TarefaService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

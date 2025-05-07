@@ -1,7 +1,9 @@
-package br.univille.entity;
+package br.univille.projfabsofttarefas.entity;
 
 import jakarta.persistence.*;
 import java.time.LocalDate;
+
+import org.springframework.format.annotation.DateTimeFormat;
 
 @Entity
 @Table(name = "tarefa")
@@ -15,12 +17,13 @@ public class Tarefa {
 
     private String descricao;
 
+    @Temporal(TemporalType.DATE)
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate dataTermino;
 
     private boolean concluida;
 
     @ManyToOne
-    @JoinColumn(name = "usuario_id")
     private Usuario usuario;
 
     public long getId() {

@@ -1,7 +1,8 @@
-package br.univille.controller;
+package br.univille.projfabsofttarefas.controller;
 
-import br.univille.entity.Usuario;
-import br.univille.service.UsuarioService;
+import br.univille.projfabsofttarefas.entity.Usuario;
+import br.univille.projfabsofttarefas.service.UsuarioService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,7 +1,8 @@
-package br.univille.service;
+package br.univille.projfabsofttarefas.service;
 
-import br.univille.entity.Usuario;
-import br.univille.repository.UsuarioRepository;
+import br.univille.projfabsofttarefas.entity.Usuario;
+import br.univille.projfabsofttarefas.repository.UsuarioRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

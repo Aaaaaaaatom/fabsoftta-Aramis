@@ -1,4 +1,4 @@
-package br.univille.entity;
+package br.univille.projfabsofttarefas.entity;
 
 import jakarta.persistence.*;
 import java.util.List;

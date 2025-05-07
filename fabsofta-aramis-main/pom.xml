@@ -10,7 +10,6 @@
     <name>Multi Project: FSO 2025 1 A</name>
 
     <modules>
-        <module>revisao</module>
         <module>projfabsofttarefas</module>
     </modules>
 
